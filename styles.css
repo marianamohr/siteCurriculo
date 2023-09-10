@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #333;
+  color: #fff;
+  padding: 20px 10px; 
+}
+
+header h1 {
+  margin: 0; 
+}
+
+header a {
+  display: inline-block;
+  background-color: black;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resume {
+  margin: 20px;
+  border-bottom: 20px;
+  border: 2px solid #000;
+  border-radius: 2px;
+  padding: 10px;
+  width: 200px;
+  height: 150px;
+
+}
+
+.resume h2 {
+  font-size: 1.5em;
+}
+
+.resume p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.resume a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.resume a:hover {
+  background-color: #555;
+}
+
+.resume-details {
+  margin-bottom: 20px;
+  border-bottom: 20px;
+  border: 2px solid #000;
+  border-radius: 2px;
+  padding: 10px;
+  display: flex; /* Define a seção como um container flexível */
+  align-items: center; /* Alinha verticalmente os elementos */
+}
+
+.resume-details h2 {
+  font-size: 1.5em;
+}
+
+.resume-details p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.resume-details a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.resume-details a:hover {
+  background-color: #555;
+}
+.resume-details img {
+  border-radius: 50%;
+  width: 250px; /* Define a largura da imagem conforme necessário */
+  height: 250px; /* Mantém a proporção da imagem */
+  margin-left: 40px; /* Adiciona um espaço à esquerda da imagem */
+}
+
